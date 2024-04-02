@@ -25,12 +25,14 @@ function play(playerChoice) {
 }
 
 function imageChanger(playerChoice) {
-    const playerImage = document.getElementById("rps-image-one");
-    const computerImage = document.getElementById("rps-image-two");
 
     playerImage.src = `assets/images/${playerChoice}.png`;
     playerImage.alt = playerChoice;
 
     computerImage.src = `assets/images/${computerChoices}.png`
     computerImage.alt = computerChoices
+}
+
+function scoreChanger(){
+    
 }
