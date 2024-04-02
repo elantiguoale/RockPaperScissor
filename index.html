@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--TITLE-->
     <title>Rock Paper Scissors</title>
 
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <div id = "gamebody">
+    <div id="gamebody">
         <h1>Rock Paper Scissors</h1>
-            <!-- play function for onclick-->
+        <!-- play function for onclick-->
 
         <div>
             <h2>Make your choice!</h2>
         </div>
         <div class="buttons">
-            <button onclick="play('rock')">Rock</button>
-            <button onclick="play('paper')">Paper</button>
-            <button onclick="play('scissors')">Scissors</button>
+            <button id="button1" onclick="play('rock')">Rock</button>
+            <button id="button2" onclick="play('paper')">Paper</button>
+            <button id="button3" onclick="play('scissors')">Scissors</button>
         </div>
-        
+        <div id="bothcontainers">
+            <div class="image-text-container">
+                <img src="assets/images/rock-paper-scissor.png" alt="rock paper scissor image">
+                <p>You</p>
+            </div>
+            <div class="image-text-container">
+                <img src="assets/images/rock-paper-scissor.png" alt="rock paper scissor image">
+                <p>RPS Bot</p>
+            </div>
+        </div>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
