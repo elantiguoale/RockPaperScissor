@@ -12,7 +12,7 @@ There is only one page, so theres no need for one
 
 - __The landing page image__
 
-  - Here you are welcomed by a picture of a cake world with a label showing you what the site is about.
+  - Here you are welcomed by a picture of a the rock paper scissors game.
 
 ![home page](https://github.com/elantiguoale/rockpaperscissor/assets/59495965/4a7e23a6-e4ac-4d79-b145-75b2473afee2)
 
