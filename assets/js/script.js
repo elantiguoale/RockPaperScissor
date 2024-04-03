@@ -46,7 +46,7 @@ function reset() {
     playerPoints = 0;
     computerPoints = 0;
 
-    
     playerScore.innerText = "Your Score: " + playerPoints;
     computerScore.innerText = "Bot Score: " + computerPoints;
+    document.getElementById('result').innerText = ""
 }
