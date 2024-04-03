@@ -53,15 +53,17 @@ The picture sizes keep changing ever so slightly
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 - JS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)  
+  - No errors were found when passing through the official [Js Hint validator](https://jshint.com/)  
 
-  -Testing with Lighthouse
+- Testing with Lighthouse
 
-  ![Lighthouse testing](https://github.com/elantiguoale/anabelsweets/assets/59495965/6762baf2-eb6d-460a-9bb8-c335cde036d2)
+ ![light house test](https://github.com/elantiguoale/rockpaperscissor/assets/59495965/ba6d611d-a52b-46ec-a2b6-340c70f7875a)
+
+
 
 ### Unfixed Bugs
 
-Some formats cause the page to use more space than neccessary, causing the lighthouse to show lower scores.
+Picture formats keeps messing with the program.
 
 ## Deployment
 
@@ -72,18 +74,15 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://elantiguoale.github.io/rockpaperscissor/
 
 
 ## Credits 
 ### Content 
 
-- I used alot of the inspiration from Love running project from [Code Institute](https://codeinstitute.com)
+- I used alot of the inspiration from Rock Paper Scissors project from [Code Institute](https://codeinstitute.com)
 - Instructions on how to implement form validation on the Sign Up page was taken from Code Institute[Code Institute](https://codeinstitute.com)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- The font for the header was taken from [Google Fonts](https://fonts.google.com/)
 
 ### Media
 
-- The rest of the pictures was generated with Ai or taken from [Anabels Instagram](https://www.instagram.com/anabelssweets/)
-- I also used some cake picture examples from [Pinterest](https://Pinterest.com)
+- The rest of the pictures was generated with Ai or taken from [Google Pictures(https://www.google.com)]
